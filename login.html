@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     
 </head>
-<body>
+<body class="login-body">
 
     <div class="txtPrincipal">
         <h2>bienvenido, registra ahora tu asistencia</h2>
@@ -30,6 +30,12 @@
             <img src="/img/logo.png" alt="Abarrotes Fermina Logo">
             <p>Abarrotes Fermina</p>
         </div>
+
+        <label>Selecciona:</label>
+        <select class="form-control" id="tipoRegistro" required>
+            <option value="entrada">Entrada</option>
+            <option value="salida">Salida</option>
+        </select>
         
         <form>
           <div class="form-group">
@@ -42,14 +48,15 @@
           </div>
           <button type="submit" class="btn btn-primary btn-block" id="login">Iniciar Sesión</button>
         </form>
-      </div>
+    </div>
       
       <footer class="text-center mt-4">
         <p>&copy; 2023 Registro de Asistencia. aplicación web creada por aldo borbón, martín borbón, eric carballo. <span>instituto tecnológico de sonora </span></p>
       </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-      <script src="script.js"></script>
+      <script src="js/fechaHora.js"></script>
+      <script src="js/login.js"></script>
 
 </body>
 </html>

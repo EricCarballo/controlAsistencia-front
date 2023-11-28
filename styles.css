@@ -1,96 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #a7c957;
-    background: linear-gradient(to left, #f8f9fa, #b9d083, #a7c957, #4d2928);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+.login-body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #a7c957;
+  background: linear-gradient(to left, #f8f9fa, #b9d083, #a7c957, #4d2928);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-  .txtPrincipal{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-  }
+body{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #a7c957;
+  background: linear-gradient(to left, #f8f9fa, #b9d083, #a7c957, #4d2928);
+  min-height: 100vh;
+}
 
-  .txtPrincipal h2{
-    font-weight: 600;
-    text-transform: uppercase;
-  }
+.txtPrincipal{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
 
-  .txtPrincipal svg{
-    margin-left: 10px;
-    color: #fff;
-    width: 25px;
-    height: 25px;
-  }
+.txtPrincipal h2{
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
-  .time-container {
-    text-align: center;
-    margin-bottom: 0;
+.txtPrincipal svg{
+  margin-left: 10px;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+}
+
+.time-container {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 #current-time, #current-date {
-    font-size: 24px;
-    font-weight: bold;
-    color: #e8e2e2;
-    margin-bottom: 10px; 
+  font-size: 24px;
+  font-weight: bold;
+  color: #e8e2e2;
+  margin-bottom: 10px; 
 }
 
 
-  .login{
-    display: flex;
-    justify-content: space-evenly;
-  }
+.login{
+  display: flex;
+  justify-content: space-evenly;
+}
 
-  .login p{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #fff;
-  }
+.login p{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+}
 
-  .login-container {
-    width: 800px;
-    height: 370px;
-    margin: auto;
-    margin-top: 40px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  }
+.login-container {
+  width: 800px;
+  height: 420px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
 
-  .login-container img {
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
+.login-container img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
 
 .form-group{
-    margin: 10px auto 15px;
+  margin: 10px auto 15px;
 }
 
 .form-group label{
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .btn{
-    margin-bottom: 40px;
-    
+  margin-bottom: 40px;
+  
 }
 
-  footer {
-    font-size: x-small;
-    margin-top: auto;
-    background-color: #343a40;
-    text-transform: capitalize;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-  }
+footer {
+  font-size: x-small;
+  margin-top: auto;
+  background-color: #343a40;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 
-  footer span{
-    font-weight: 500;
-    text-transform: uppercase;
-  }
+}
+
+footer span{
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+label {
+  color: #010101;
+  font-weight: 500;
+}
+
+.centered{
+  text-align: center !important;
+  vertical-align: middle !important;
+}
